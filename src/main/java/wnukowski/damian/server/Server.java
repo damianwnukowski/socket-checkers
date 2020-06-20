@@ -1,4 +1,4 @@
-package wnukowski.damian;
+package wnukowski.damian.server;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,7 +1,8 @@
-package wnukowski.damian;
+package wnukowski.damian.game;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import wnukowski.damian.server.ServerState;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
@@ -114,20 +115,6 @@ public class GameRoom {
         }
 
         return false;
-    }
-
-    public synchronized long getWhiteMilliseconds() {
-        updateTime();
-        return whiteMilliseconds;
-    }
-
-    public synchronized long getBlackMilliseconds() {
-        updateTime();
-        return blackMilliseconds;
-    }
-
-    public synchronized Color getCurrentTurn() {
-        return currentTurn;
     }
 
     public synchronized String getWholeRoomStateAsString() {

@@ -1,4 +1,4 @@
-package wnukowski.damian;
+package wnukowski.damian.server;
 
 import java.util.UUID;
 

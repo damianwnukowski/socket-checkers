@@ -1,4 +1,4 @@
-package wnukowski.damian;
+package wnukowski.damian.server;
 
 public class ServerCodes {
     public final static String ROOM_JOINED = "ROOM_JOINED";

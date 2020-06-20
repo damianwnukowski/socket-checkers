@@ -1,4 +1,6 @@
-package wnukowski.damian;
+package wnukowski.damian.server;
+
+import wnukowski.damian.game.GameRoom;
 
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;

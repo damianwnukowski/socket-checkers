@@ -1,7 +1,8 @@
-package wnukowski.damian;
+package wnukowski.damian.server;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import wnukowski.damian.game.GameRoom;
 
 import java.io.*;
 import java.net.Socket;
@@ -12,7 +13,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 
-import static wnukowski.damian.ServerCodes.*;
+import static wnukowski.damian.server.ServerCodes.*;
 
 public class ClientHandler implements Runnable {
     private static final Logger log = LoggerFactory.getLogger(ClientHandler.class);
