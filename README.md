@@ -90,6 +90,14 @@ abcdefgh
 ```
 Przykładowym pierwszym ruchem przez białego gracza może być `MOVE a3 b4`
 
+## SSL 
+Komunikacja jest szyfrowana za pomocą tls. W repozytorium znajduje się przykładowy certyfikat z kluczem
+prywatnym w formacie .jks ssl/ceritifacte.jks, który jest domyślnie uruchamiany wraz z aplikacją i może być
+zmieniony przy pomocy zmiennych środowiskowych. 
+Certyfikat jest przykładowy i pochodzi z oficjalnego poradnika Oracle. 
+
+https://docs.oracle.com/javase/7/docs/technotes/guides/security/jsse/samples/index.html
+
 ## Zbudowanie aplikacji
 Do zbudowania aplikacji wymagana jest Java w wersji 8 oraz system budowania Maven. 
 `mvn clean install`
